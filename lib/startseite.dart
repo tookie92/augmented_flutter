@@ -24,7 +24,7 @@ class Accueil extends StatelessWidget {
                 height: 150,
                 width: size.width * 0.45,
                 child: TextButton(
-                  child: const Text('Gesture'),
+                  child: const Text('Gesture movable'),
                   onPressed: () {
                     Navigator.of(context).push(MaterialPageRoute(
                         builder: (context) => ObjectGesturesWidget()));
