@@ -19,7 +19,7 @@ class _DebugOptionsWidgetState extends State<DebugOptionsWidget> {
   bool _showPlanes = false;
   bool _showWorldOrigin = false;
   bool _showAnimatedGuide = true;
-  String _planeTexturePath = "Images/triangle.png";
+  String _planeTexturePath = "assets/Images/triangle.png";
   bool _handleTaps = false;
 
   @override
